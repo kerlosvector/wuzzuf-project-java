@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class rset_web_service {
-    @GetMapping("hello2020")
+    @GetMapping("wuzzuf")
     public String getHelloWorld(){
-        return "Hello monica!";
+        return "showing data of wuzzuf jobs .csv";
     }
 }
